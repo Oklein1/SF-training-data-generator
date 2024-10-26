@@ -49,9 +49,9 @@ def main():
 
     def name_generator(num_of_names_int):
         storage = []
-        for i in range(num_of_names_int):
-            if i not in storage:
-                storage.append(names.get_full_name())
+        while len(storage) != num_of_names_int:
+            if fake.name() not in storage:
+                storage.append(fake.name())
         return storage
 
     def industry_name_generator(num_of_names_int):
