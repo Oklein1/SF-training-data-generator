@@ -25,10 +25,6 @@ This Python script generates random datasets specifically designed for practicin
   - Stage name
   - Associated account and owner IDs
 
-## Requirements
-```bash
-run pip install -r requirments.txt
-```
 
 ## Setup Instructions
 
